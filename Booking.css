@@ -1,0 +1,29 @@
+h1
+{
+	background-color: #38ddf0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+body
+{
+	background-color: #b3b93c;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color: #525252;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+hr
+{
+	background-color: #525252;
+	height: 5px; 
+	border: 0;
+}
+
+a:hover
+{
+	color: #FC0000;
+}
+

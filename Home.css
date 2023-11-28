@@ -1,0 +1,381 @@
+
+h1
+{
+	/* background-color: brown; */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+body
+{
+	background-image: url(https://th.bing.com/th/id/R.982aa3764e0940fc81411c37b9fac1d6?rik=dn54CrCtrNsX8g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fmxT2Zk2.png&ehk=TwmGi%2fa6S9pzmAKhq0WCDDyT4diC0X2eW14j0LMgI4E%3d&risl=&pid=ImgRaw&r=0);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color: #525252;
+	margin-right: 100px;
+	margin-left: 100px;
+    font-size: medium;
+}
+
+hr
+{
+	background-color: #525252;
+	height: 5px; 
+	border: 0;
+}
+
+When the mouse move on to the link, text will turn to red color
+a:hover
+{
+	color: #fca400;
+}
+
+
+
+/**********************************/
+
+
+/*NEW VERSION*/
+
+
+/**********************************/
+
+
+/*basic setup*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e60c0c;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 200%;
+    color: #fff;
+    float: left;
+    margin-top: 30px;
+}
+
+
+/*header image*/
+
+header {
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(https://www.zoomcar.com/img/vistara_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/*nav bar*/
+
+.mainNav {
+    float: right;
+    margin-top: 40px;
+}
+
+.mainNav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+    text-transform: uppercase;
+    padding: 2px 2px;
+    font-size: 90%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid rgba( 255, 255, 255, 0);
+    -webkit-transition: border-bottom 1s;
+    transition: border-bottom 1s;
+}
+
+.mainNav li a:hover,
+.mainNav li a:active {
+    border-bottom: 2px solid #f1c40f;
+}
+
+.heroText {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.heroText h1 {
+    font-size: 250%;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.btnRes {
+    border: 3px solid #f1c40f;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.btnRes:hover {
+    background-color: #7e6a1b;
+}
+
+
+/*button*/
+
+.btn {
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    font-size: 120%;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.section {
+    margin: 50px auto;
+}
+
+.intro h2 {
+    font-size: 150%;
+    text-align: center
+}
+
+.iconTitle {
+    margin-right: 10px;
+    font-size: 150%;
+    color: #f39c12;
+}
+
+.intro p {
+    font-size: 120%;
+    line-height: 140%;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+/*divider*/
+
+.divider1 {
+    height: 80vh;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(d:\carental\tongariro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dividerTextBox {
+    text-align: right;
+    width: 1140px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 300;
+    font-size: 120%;
+    line-height: 150%;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba( 255, 255, 255, 0.4);
+}
+
+.dividerTextBox h2 {
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.dividerTextBox p {
+    margin: 20px 0;
+}
+
+.btnMoreInfo {
+    margin-top: 20px;
+    background-color: #f1c40f;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btnMoreInfo:hover {
+    background-color: #f39c12;
+}
+
+.vehicleTypeTitle{
+    font-size: 200%;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.carIcon{
+    width: 100px;
+    height: auto;
+}
+
+.vehicle{
+    margin-left: 0; 
+    text-align: center;
+}
+
+.vehicle h2{
+    font-size: 150%;
+}
+
+.vehicle ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+.divider2{
+    height: 80vh;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3 )), url(d:\carental\dividerImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*table*/
+table{
+    width: 100%;
+}
+.rateTable{
+    width: 100%;
+    font-weight: 300;
+    font-size: 120%;
+    text-align: center;
+}
+.rateTable h2{
+    text-transform: uppercase;
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+.rateTable tr td,
+.rateTable tr th{
+    padding: 12px;
+    /* width: ; */
+    border-bottom: 2px solid #888;
+
+}
+
+.rateTable table tr{
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+.rateTable table tr:hover{
+    cursor: pointer;
+    background-color: #fcf3d0;
+}
+
+.map{
+    height: 80vh;
+}
+#map{
+    height: 100%;
+}
+
+.contact h1{
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.priceText{
+    width: 1140px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.priceText p{
+    font-weight: 300;
+    font-size: 150%;
+    color: #fff;
+    line-height: 150%;
+    padding: 20px;
+    background-color: rgba( 255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.panelA{
+    margin-left: 0;
+}
+
+.panelA ul li{
+    list-style: none;
+    font-size: 110%;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.panelA ul li i{
+    font-size: 180%;
+    margin-right: 20px;
+    color: inherit;
+    transition: all 1s;
+}
+
+.ion-social-twitter:hover{
+    color: #55acee;
+}
+
+.ion-social-instagram:hover{
+    color: #e95950;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+
+.ion-social-youtube:hover{
+    color: #bb0000;
+}
+.hello{
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    font-size:large;
+
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(250, 9, 9);
+    text-decoration: underline;
+}
+.section group row contact{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+color: #f1c40f;
+font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    color: cornsilk;
+    
+}

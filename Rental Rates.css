@@ -1,0 +1,45 @@
+h1
+{
+	background-color: #AFDBE0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+body
+{
+	background-color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color: #525252;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-size: 30px;
+}
+
+hr
+{
+	background-color: #525252;
+	height: 5px; 
+	border: 0;
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+a:hover
+{
+	color: #FC0000;
+}
+
+td, tr
+{
+	border: 1px solid white;
+}
+
+table
+{
+	border-collapse:collapse;
+	text-align:center;
+}

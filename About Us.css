@@ -1,0 +1,40 @@
+h1{
+	background-color:black;
+	font-size: 50px;
+	background-image: url(https://th.bing.com/th/id/OIP.gKvg1qih8etlKWIo9CWLyQHaFj?rs=1&pid=ImgDetMain);
+}
+
+body{
+	/* background-color: royalblue; */
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color:rgb(255, 113, 47);
+	font-size:20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-weight: bold;
+	background-image: url(https://th.bing.com/th/id/OIP.CfftvlRzb0dwqnFeBEPQIAHaCs?w=1920&h=700&rs=1&pid=ImgDetMain);
+}
+
+hr
+{
+	background-color: #525252;
+	height: 5px; 
+	border: 0;
+}
+
+a:hover
+{
+	color: #e3fc00;
+}
+p{
+	/* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; */
+	font-size: 25px;
+	font-style: italic;
+}
+h2{color:black;
+	font-size:50px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
